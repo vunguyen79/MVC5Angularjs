@@ -25,3 +25,9 @@ C:\Users\HoangVu\Source\Repos\MVC5Angularjs\HomeCinema.Entities\obj\Debug\HomeCi
 C:\Users\HoangVu\Source\Repos\MVC5Angularjs\HomeCinema.Entities\obj\Debug\HomeCinema.Entities.csproj.CoreCompileInputs.cache
 C:\Users\HoangVu\Source\Repos\MVC5Angularjs\HomeCinema.Entities\obj\Debug\HomeCinema.Entities.dll
 C:\Users\HoangVu\Source\Repos\MVC5Angularjs\HomeCinema.Entities\obj\Debug\HomeCinema.Entities.pdb
+C:\WORKING\MyCompanyMVC5Angularjs\HomeCinema.Entities\bin\Debug\HomeCinema.Entities.dll
+C:\WORKING\MyCompanyMVC5Angularjs\HomeCinema.Entities\bin\Debug\HomeCinema.Entities.pdb
+C:\WORKING\MyCompanyMVC5Angularjs\HomeCinema.Entities\obj\Debug\HomeCinema.Entities.csprojAssemblyReference.cache
+C:\WORKING\MyCompanyMVC5Angularjs\HomeCinema.Entities\obj\Debug\HomeCinema.Entities.csproj.CoreCompileInputs.cache
+C:\WORKING\MyCompanyMVC5Angularjs\HomeCinema.Entities\obj\Debug\HomeCinema.Entities.dll
+C:\WORKING\MyCompanyMVC5Angularjs\HomeCinema.Entities\obj\Debug\HomeCinema.Entities.pdb
