@@ -1,0 +1,126 @@
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\HomeCinema.Data.dll.config
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\HomeCinema.Data.dll
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\HomeCinema.Data.pdb
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\EntityFramework.dll
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\FluentValidation.dll
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\HomeCinema.Entities.dll
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\MockData.dll
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\HomeCinema.Entities.pdb
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\EntityFramework.xml
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\FluentValidation.pdb
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\FluentValidation.xml
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\da\FluentValidation.resources.dll
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\de\FluentValidation.resources.dll
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\es\FluentValidation.resources.dll
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\fi\FluentValidation.resources.dll
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\fr\FluentValidation.resources.dll
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\it\FluentValidation.resources.dll
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\ko\FluentValidation.resources.dll
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\mk\FluentValidation.resources.dll
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\nl\FluentValidation.resources.dll
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\pl\FluentValidation.resources.dll
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\pt\FluentValidation.resources.dll
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\ru\FluentValidation.resources.dll
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\sv\FluentValidation.resources.dll
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\tr\FluentValidation.resources.dll
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\obj\Debug\HomeCinema.Data.csprojResolveAssemblyReference.cache
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\obj\Debug\HomeCinema.Data.csproj.CoreCompileInputs.cache
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\obj\Debug\HomeCinema.Data.dll
+C:\Users\Vu Nguyen\Downloads\spa-webapi-angularjs-master\spa-webapi-angularjs-master\HomeCinema.Data\obj\Debug\HomeCinema.Data.pdb
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\HomeCinema.Data.dll.config
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\HomeCinema.Data.dll
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\HomeCinema.Data.pdb
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\EntityFramework.dll
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\FluentValidation.dll
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\HomeCinema.Entities.dll
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\MockData.dll
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\HomeCinema.Entities.pdb
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\EntityFramework.xml
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\FluentValidation.pdb
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\FluentValidation.xml
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\da\FluentValidation.resources.dll
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\de\FluentValidation.resources.dll
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\es\FluentValidation.resources.dll
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\fi\FluentValidation.resources.dll
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\fr\FluentValidation.resources.dll
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\it\FluentValidation.resources.dll
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\ko\FluentValidation.resources.dll
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\mk\FluentValidation.resources.dll
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\nl\FluentValidation.resources.dll
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\pl\FluentValidation.resources.dll
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\pt\FluentValidation.resources.dll
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\ru\FluentValidation.resources.dll
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\sv\FluentValidation.resources.dll
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\tr\FluentValidation.resources.dll
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\obj\Debug\HomeCinema.Data.csprojResolveAssemblyReference.cache
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\obj\Debug\HomeCinema.Data.csproj.CoreCompileInputs.cache
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\obj\Debug\HomeCinema.Data.dll
+C:\Working\Working22_3_2018\spa-webapi-angularjs-master\HomeCinema.Data\obj\Debug\HomeCinema.Data.pdb
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\HomeCinema.Data.dll.config
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\HomeCinema.Data.dll
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\HomeCinema.Data.pdb
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\EntityFramework.dll
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\FluentValidation.dll
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\HomeCinema.Entities.dll
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\MockData.dll
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\HomeCinema.Entities.pdb
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\EntityFramework.xml
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\FluentValidation.pdb
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\FluentValidation.xml
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\da\FluentValidation.resources.dll
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\de\FluentValidation.resources.dll
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\es\FluentValidation.resources.dll
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\fi\FluentValidation.resources.dll
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\fr\FluentValidation.resources.dll
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\it\FluentValidation.resources.dll
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\ko\FluentValidation.resources.dll
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\mk\FluentValidation.resources.dll
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\nl\FluentValidation.resources.dll
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\pl\FluentValidation.resources.dll
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\pt\FluentValidation.resources.dll
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\ru\FluentValidation.resources.dll
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\sv\FluentValidation.resources.dll
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\bin\Debug\tr\FluentValidation.resources.dll
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\obj\Debug\HomeCinema.Data.csproj.CoreCompileInputs.cache
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\obj\Debug\HomeCinema.Data.dll
+C:\Working\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\obj\Debug\HomeCinema.Data.pdb
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\obj\Debug\HomeCinema.Data.csprojAssemblyReference.cache
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Data\obj\Debug\HomeCinema.Data.csproj.CopyComplete
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\HomeCinema.Data.dll.config
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\HomeCinema.Data.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\HomeCinema.Data.pdb
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\EntityFramework.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\FluentValidation.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\HomeCinema.Entities.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\MockData.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\HomeCinema.Entities.pdb
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\EntityFramework.xml
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\FluentValidation.pdb
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\FluentValidation.xml
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\da\FluentValidation.resources.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\de\FluentValidation.resources.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\es\FluentValidation.resources.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\fi\FluentValidation.resources.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\fr\FluentValidation.resources.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\it\FluentValidation.resources.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\ko\FluentValidation.resources.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\mk\FluentValidation.resources.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\nl\FluentValidation.resources.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\pl\FluentValidation.resources.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\pt\FluentValidation.resources.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\ru\FluentValidation.resources.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\sv\FluentValidation.resources.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\bin\Debug\tr\FluentValidation.resources.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\obj\Debug\HomeCinema.Data.csprojAssemblyReference.cache
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\obj\Debug\HomeCinema.Data.csproj.CoreCompileInputs.cache
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\obj\Debug\HomeCinema.Data.csproj.CopyComplete
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\obj\Debug\HomeCinema.Data.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Data\obj\Debug\HomeCinema.Data.pdb

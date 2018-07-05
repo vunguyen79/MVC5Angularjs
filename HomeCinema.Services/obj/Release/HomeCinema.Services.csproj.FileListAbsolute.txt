@@ -1,0 +1,15 @@
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Services\bin\Release\HomeCinema.Services.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Services\bin\Release\HomeCinema.Services.pdb
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Services\bin\Release\HomeCinema.Data.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Services\bin\Release\HomeCinema.Entities.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Services\bin\Release\EntityFramework.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Services\bin\Release\MockData.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Services\bin\Release\HomeCinema.Data.pdb
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Services\bin\Release\HomeCinema.Data.dll.config
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Services\bin\Release\HomeCinema.Entities.pdb
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Services\bin\Release\EntityFramework.xml
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Services\obj\Release\HomeCinema.Services.csprojAssemblyReference.cache
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Services\obj\Release\HomeCinema.Services.csproj.CoreCompileInputs.cache
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Services\obj\Release\HomeCinema.Services.csproj.CopyComplete
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Services\obj\Release\HomeCinema.Services.dll
+C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\HomeCinema.Services\obj\Release\HomeCinema.Services.pdb

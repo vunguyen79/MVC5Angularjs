@@ -1,0 +1,718 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{32415527-525D-490D-8B46-7BA4C3D45F7C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HomeCinema.Web</RootNamespace>
+    <AssemblyName>HomeCinema.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+    <TypeScriptToolsVersion>1.0</TypeScriptToolsVersion>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac">
+      <HintPath>..\packages\Autofac.3.5.0\lib\net40\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.WebApi">
+      <HintPath>..\packages\Autofac.WebApi2.3.4.0\lib\net45\Autofac.Integration.WebApi.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper">
+      <HintPath>..\packages\AutoMapper.3.3.1\lib\net40\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper.Net4">
+      <HintPath>..\packages\AutoMapper.3.3.1\lib\net40\AutoMapper.Net4.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentValidation, Version=5.6.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\FluentValidation.5.6.2.0\lib\Net45\FluentValidation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WebGrease">
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.2\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.2\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.2\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.2\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.2\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.2\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.2\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.2\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.2\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\homecinema.sql" />
+    <Content Include="Content\css\blank.gif" />
+    <Content Include="Content\css\bootstrap-theme.css" />
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\font-awesome.css" />
+    <Content Include="Content\css\fancybox_overlay.png" />
+    <Content Include="Content\css\fancybox_sprite.png" />
+    <Content Include="Content\css\loading-bar.css" />
+    <Content Include="Content\DuyNamTin\css\agency.css" />
+    <Content Include="Content\DuyNamTin\css\agency.min.css" />
+    <Content Include="Content\DuyNamTin\img\about\1.jpg" />
+    <Content Include="Content\DuyNamTin\img\about\2.jpg" />
+    <Content Include="Content\DuyNamTin\img\about\2.png" />
+    <Content Include="Content\DuyNamTin\img\about\3.jpg" />
+    <Content Include="Content\DuyNamTin\img\about\4.jpg" />
+    <Content Include="Content\DuyNamTin\img\header-bg.jpg" />
+    <Content Include="Content\DuyNamTin\img\header-bg2.jpg" />
+    <Content Include="Content\DuyNamTin\img\LogoDuyNamTin.png" />
+    <Content Include="Content\DuyNamTin\img\logos\creative-market.jpg" />
+    <Content Include="Content\DuyNamTin\img\logos\designmodo.jpg" />
+    <Content Include="Content\DuyNamTin\img\logos\envato.jpg" />
+    <Content Include="Content\DuyNamTin\img\logos\logo.png" />
+    <Content Include="Content\DuyNamTin\img\logos\themeforest.jpg" />
+    <Content Include="Content\DuyNamTin\img\map-image.png" />
+    <Content Include="Content\DuyNamTin\img\portfolio\01-full.jpg" />
+    <Content Include="Content\DuyNamTin\img\portfolio\01-thumbnail.jpg" />
+    <Content Include="Content\DuyNamTin\img\portfolio\02-full.jpg" />
+    <Content Include="Content\DuyNamTin\img\portfolio\02-thumbnail.jpg" />
+    <Content Include="Content\DuyNamTin\img\portfolio\03-full.jpg" />
+    <Content Include="Content\DuyNamTin\img\portfolio\03-thumbnail.jpg" />
+    <Content Include="Content\DuyNamTin\img\portfolio\04-full.jpg" />
+    <Content Include="Content\DuyNamTin\img\portfolio\04-thumbnail.jpg" />
+    <Content Include="Content\DuyNamTin\img\portfolio\05-full.jpg" />
+    <Content Include="Content\DuyNamTin\img\portfolio\05-thumbnail.jpg" />
+    <Content Include="Content\DuyNamTin\img\portfolio\06-full.jpg" />
+    <Content Include="Content\DuyNamTin\img\portfolio\06-thumbnail.jpg" />
+    <Content Include="Content\DuyNamTin\img\team\1.jpg" />
+    <Content Include="Content\DuyNamTin\img\team\2.jpg" />
+    <Content Include="Content\DuyNamTin\img\team\3.jpg" />
+    <Content Include="Content\DuyNamTin\js\agency.js" />
+    <Content Include="Content\DuyNamTin\js\agency.min.js" />
+    <Content Include="Content\DuyNamTin\js\contact_me.js" />
+    <Content Include="Content\DuyNamTin\js\contact_me.min.js" />
+    <Content Include="Content\DuyNamTin\js\jqBootstrapValidation.js" />
+    <Content Include="Content\DuyNamTin\js\jqBootstrapValidation.min.js" />
+    <Content Include="Content\DuyNamTin\mail\contact_me.php" />
+    <Content Include="Content\DuyNamTin\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="Content\DuyNamTin\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Content\DuyNamTin\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="Content\DuyNamTin\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="Content\DuyNamTin\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="Content\DuyNamTin\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\css\font-awesome.css" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\DuyNamTin\vendor\jquery-easing\jquery.easing.compatibility.js" />
+    <Content Include="Content\DuyNamTin\vendor\jquery-easing\jquery.easing.js" />
+    <Content Include="Content\DuyNamTin\vendor\jquery-easing\jquery.easing.min.js" />
+    <Content Include="Content\DuyNamTin\vendor\jquery\jquery.js" />
+    <Content Include="Content\DuyNamTin\vendor\jquery\jquery.min.js" />
+    <Content Include="Content\DuyNamTin\vendor\jquery\jquery.slim.js" />
+    <Content Include="Content\DuyNamTin\vendor\jquery\jquery.slim.min.js" />
+    <Content Include="Content\FreshCafeViet\css\business-casual.css" />
+    <Content Include="Content\FreshCafeViet\css\business-casual.min.css" />
+    <Content Include="Content\FreshCafeViet\img\about.jpg" />
+    <Content Include="Content\FreshCafeViet\img\bg.jpg" />
+    <Content Include="Content\FreshCafeViet\img\intro.jpg" />
+    <Content Include="Content\FreshCafeViet\img\products-01.jpg" />
+    <Content Include="Content\FreshCafeViet\img\products-02.jpg" />
+    <Content Include="Content\FreshCafeViet\img\products-03.jpg" />
+    <Content Include="Content\FreshCafeViet\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="Content\FreshCafeViet\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Content\FreshCafeViet\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="Content\FreshCafeViet\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="Content\FreshCafeViet\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="Content\FreshCafeViet\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\FreshCafeViet\vendor\jquery\jquery.js" />
+    <Content Include="Content\FreshCafeViet\vendor\jquery\jquery.min.js" />
+    <Content Include="Content\FreshCafeViet\vendor\jquery\jquery.slim.js" />
+    <Content Include="Content\FreshCafeViet\vendor\jquery\jquery.slim.min.js" />
+    <Content Include="Content\images\background.jpg" />
+    <Content Include="Content\images\movies\unknown.jpg" />
+    <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\raty\star-half-big.png" />
+    <Content Include="Content\images\raty\star-half.png" />
+    <Content Include="Content\images\raty\star-off-big.png" />
+    <Content Include="Content\images\raty\star-off.png" />
+    <Content Include="Content\images\raty\star-on-big.png" />
+    <Content Include="Content\images\raty\star-on.png" />
+    <Content Include="Content\css\morris.css" />
+    <Content Include="Content\css\site.css" />
+    <Content Include="Content\css\toastr.css" />
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\plugins\fileinput\css\fileinput-rtl.css" />
+    <Content Include="Scripts\plugins\fileinput\css\fileinput-rtl.min.css" />
+    <Content Include="Scripts\plugins\fileinput\css\fileinput.css" />
+    <Content Include="Scripts\plugins\fileinput\css\fileinput.min.css" />
+    <Content Include="Scripts\plugins\fileinput\fileinput.js" />
+    <Content Include="Scripts\plugins\fileinput\fileinput.min.js" />
+    <Content Include="Scripts\plugins\fileinput\img\loading-sm.gif" />
+    <Content Include="Scripts\plugins\fileinput\img\loading.gif" />
+    <Content Include="Scripts\plugins\fileinput\piexif.js" />
+    <Content Include="Scripts\plugins\fileinput\piexif.min.js" />
+    <Content Include="Scripts\plugins\fileinput\purify.js" />
+    <Content Include="Scripts\plugins\fileinput\purify.min.js" />
+    <Content Include="Scripts\plugins\fileinput\sortable.js" />
+    <Content Include="Scripts\plugins\fileinput\sortable.min.js" />
+    <Content Include="Scripts\spa\account\registerCtrl.js" />
+    <Content Include="Scripts\spa\account\register.html" />
+    <Content Include="Scripts\spa\app.js" />
+    <Content Include="Scripts\spa\account\loginCtrl.js" />
+    <Content Include="Scripts\spa\customers\customerEditCtrl.js" />
+    <Content Include="Scripts\spa\customers\customersRegCtrl.js" />
+    <Content Include="Scripts\spa\customers\editCustomerModal.html" />
+    <Content Include="Scripts\spa\directives\availableMovie.html" />
+    <Content Include="Scripts\spa\lawyers\lawyers.html" />
+    <Content Include="Scripts\spa\lawyers\lawyersCtrl.js" />
+    <Content Include="Scripts\spa\modules\common.ui.js" />
+    <Content Include="Scripts\spa\movies\edit.html" />
+    <Content Include="Scripts\spa\movies\details.html" />
+    <Content Include="Scripts\spa\movies\movieEditCtrl.js" />
+    <Content Include="Scripts\spa\movies\movieAddCtrl.js" />
+    <Content Include="Scripts\spa\movies\movieDetailsCtrl.js" />
+    <Content Include="Scripts\spa\movies\moviesCtrl.js" />
+    <Content Include="Scripts\spa\customers\customersCtrl.js" />
+    <Content Include="Scripts\spa\home\indexCtrl.js" />
+    <Content Include="Scripts\spa\home\rootCtrl.js" />
+    <Content Include="Scripts\spa\layout\sideBar.directive.js" />
+    <Content Include="Scripts\spa\directives\rating.directive.js" />
+    <Content Include="Scripts\spa\layout\customPager.directive.js" />
+    <Content Include="Scripts\spa\layout\topBar.directive.js" />
+    <Content Include="Scripts\spa\profileUser\profileUser.html" />
+    <Content Include="Scripts\spa\profileUser\profileUser.js" />
+    <Content Include="Scripts\spa\rental\rentMovieCtrl.js" />
+    <Content Include="Scripts\spa\rental\rentMovieModal.html" />
+    <Content Include="Scripts\spa\rental\rentStatsCtrl.js" />
+    <Content Include="Scripts\spa\services\fileUploadService.js" />
+    <Content Include="Scripts\spa\services\membershipService.js" />
+    <Content Include="Scripts\spa\services\notificationService.js" />
+    <Content Include="Scripts\spa\services\apiService.js" />
+    <Content Include="Content\css\jquery.fancybox.css" />
+    <Content Include="Scripts\vendors\angucomplete-alt.min.js" />
+    <Content Include="Scripts\vendors\angular-base64.js" />
+    <Content Include="Scripts\vendors\angular-cookies.js" />
+    <Content Include="Scripts\vendors\angular-file-upload.js" />
+    <Content Include="Scripts\vendors\angular-validator.js" />
+    <Content Include="Scripts\vendors\jquery.fancybox-media.js" />
+    <Content Include="Scripts\vendors\jquery.fancybox.js" />
+    <Content Include="Scripts\vendors\loading-bar.js" />
+    <Content Include="Scripts\vendors\ui-bootstrap-tpls-0.13.1.js" />
+    <Content Include="Scripts\spa\customers\register.html" />
+    <Content Include="Scripts\spa\customers\customers.html" />
+    <Content Include="Scripts\spa\account\login.html" />
+    <Content Include="Scripts\spa\home\index.html" />
+    <Content Include="Scripts\vendors\angular-route.js" />
+    <Content Include="Scripts\vendors\angular.js" />
+    <Content Include="Scripts\vendors\bootstrap.js" />
+    <Content Include="Scripts\vendors\jquery.js" />
+    <Content Include="Scripts\vendors\jquery.raty.js" />
+    <Content Include="Scripts\vendors\modernizr.js" />
+    <Content Include="Scripts\vendors\morris.js" />
+    <Content Include="Scripts\vendors\raphael.js" />
+    <Content Include="Scripts\vendors\respond.src.js" />
+    <Content Include="Scripts\vendors\toastr.js" />
+    <Content Include="Scripts\vendors\underscore.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Scripts\spa\layout\pager.html" />
+    <Content Include="Scripts\spa\layout\topBar.html" />
+    <Content Include="Scripts\spa\layout\sideBar.html" />
+    <Content Include="Scripts\spa\movies\add.html" />
+    <Content Include="Scripts\spa\movies\movies.html" />
+    <Content Include="Scripts\spa\rental\rental.html" />
+    <Content Include="Content\FreshCafeViet\scss\business-casual.scss" />
+    <Content Include="Content\FreshCafeViet\scss\_about.scss" />
+    <Content Include="Content\FreshCafeViet\scss\_bootstrap-overrides.scss" />
+    <Content Include="Content\FreshCafeViet\scss\_buttons.scss" />
+    <Content Include="Content\FreshCafeViet\scss\_cta.scss" />
+    <Content Include="Content\FreshCafeViet\scss\_footer.scss" />
+    <Content Include="Content\FreshCafeViet\scss\_global.scss" />
+    <Content Include="Content\FreshCafeViet\scss\_intro.scss" />
+    <Content Include="Content\FreshCafeViet\scss\_mixins.scss" />
+    <Content Include="Content\FreshCafeViet\scss\_navbar.scss" />
+    <Content Include="Content\FreshCafeViet\scss\_products.scss" />
+    <Content Include="Content\FreshCafeViet\scss\_store.scss" />
+    <Content Include="Content\FreshCafeViet\scss\_variables.scss" />
+    <Content Include="Content\FreshCafeViet\vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Content\FreshCafeViet\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="Content\FreshCafeViet\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="Content\FreshCafeViet\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Content\FreshCafeViet\vendor\bootstrap\js\bootstrap.js.map" />
+    <Content Include="Content\FreshCafeViet\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="Content\FreshCafeViet\vendor\jquery\jquery.min.map" />
+    <Content Include="Content\FreshCafeViet\vendor\jquery\jquery.slim.min.map" />
+    <Content Include="Content\DuyNamTin\scss\agency.scss" />
+    <Content Include="Content\DuyNamTin\scss\_contact.scss" />
+    <Content Include="Content\DuyNamTin\scss\_footer.scss" />
+    <Content Include="Content\DuyNamTin\scss\_global.scss" />
+    <Content Include="Content\DuyNamTin\scss\_masthead.scss" />
+    <Content Include="Content\DuyNamTin\scss\_mixins.scss" />
+    <Content Include="Content\DuyNamTin\scss\_navbar.scss" />
+    <Content Include="Content\DuyNamTin\scss\_portfolio.scss" />
+    <Content Include="Content\DuyNamTin\scss\_services.scss" />
+    <Content Include="Content\DuyNamTin\scss\_team.scss" />
+    <Content Include="Content\DuyNamTin\scss\_timeline.scss" />
+    <Content Include="Content\DuyNamTin\scss\_variables.scss" />
+    <Content Include="Content\DuyNamTin\vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Content\DuyNamTin\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="Content\DuyNamTin\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="Content\DuyNamTin\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Content\DuyNamTin\vendor\bootstrap\js\bootstrap.js.map" />
+    <Content Include="Content\DuyNamTin\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\css\font-awesome.css.map" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\less\animated.less" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\less\bordered-pulled.less" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\less\core.less" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\less\fixed-width.less" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\less\font-awesome.less" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\less\icons.less" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\less\larger.less" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\less\list.less" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\less\mixins.less" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\less\path.less" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\less\rotated-flipped.less" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\less\screen-reader.less" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\less\stacked.less" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\less\variables.less" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\scss\font-awesome.scss" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\scss\_animated.scss" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\scss\_core.scss" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\scss\_icons.scss" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\scss\_larger.scss" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\scss\_list.scss" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\scss\_mixins.scss" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\scss\_path.scss" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\scss\_screen-reader.scss" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\scss\_stacked.scss" />
+    <Content Include="Content\DuyNamTin\vendor\font-awesome\scss\_variables.scss" />
+    <Content Include="Content\DuyNamTin\vendor\jquery\jquery.min.map" />
+    <Content Include="Content\DuyNamTin\vendor\jquery\jquery.slim.min.map" />
+    <Content Include="Content\NhanLenhApp\css\new-age.css" />
+    <Content Include="Content\NhanLenhApp\css\new-age.min.css" />
+    <Content Include="Content\NhanLenhApp\device-mockups\apple_watch\edition\gold.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\apple_watch\edition\rose.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\apple_watch\sport\black.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\apple_watch\sport\blue.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\apple_watch\sport\green.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\apple_watch\sport\red.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\apple_watch\sport\white.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\apple_watch\watch\metal.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\apple_watch\watch\steel.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\device-mockups.css" />
+    <Content Include="Content\NhanLenhApp\device-mockups\device-mockups.min.css" />
+    <Content Include="Content\NhanLenhApp\device-mockups\device-mockups2.css" />
+    <Content Include="Content\NhanLenhApp\device-mockups\device-mockups2.min.css" />
+    <Content Include="Content\NhanLenhApp\device-mockups\galaxy_s3\s3_land_black.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\galaxy_s3\s3_land_white.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\galaxy_s3\s3_port_black.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\galaxy_s3\s3_port_white.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\galaxy_s5\galaxy_s5_land_black.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\galaxy_s5\galaxy_s5_land_gold.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\galaxy_s5\galaxy_s5_land_white.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\galaxy_s5\galaxy_s5_port_black.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\galaxy_s5\galaxy_s5_port_gold.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\galaxy_s5\galaxy_s5_port_white.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\galaxy_tab4\galaxy_tab4_land_black.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\galaxy_tab4\galaxy_tab4_land_white.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\galaxy_tab4_small\galaxy_tab4_black_small.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\galaxy_tab4_small\galaxy_tab4_white_small.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\imac\imac.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\ipad\ipad_land_black.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\ipad\ipad_land_white.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\ipad\ipad_port_black.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\ipad\ipad_port_white.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\ipad_air\ipad_air_gray_land.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\ipad_air\ipad_air_gray_port.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\ipad_air\ipad_air_silver_land.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\ipad_air\ipad_air_silver_port.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\ipad_air_2\ipad_air_2_gold_land.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\ipad_air_2\ipad_air_2_gold_port.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\ipad_air_2\ipad_air_2_gray_land.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\ipad_air_2\ipad_air_2_gray_port.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\ipad_air_2\ipad_air_2_silver_land.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\ipad_air_2\ipad_air_2_silver_port.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\ipad_pro\ipad_pro_land_black.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\ipad_pro\ipad_pro_land_gold.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\ipad_pro\ipad_pro_land_silver.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\ipad_pro\ipad_pro_port_black.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\ipad_pro\ipad_pro_port_gold.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\ipad_pro\ipad_pro_port_silver.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone5\iphone5_land_black.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone5\iphone5_land_white.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone5\iphone5_port_black.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone5\iphone5_port_white.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone_6\iphone_6_land_black.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone_6\iphone_6_land_gold.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone_6\iphone_6_land_white.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone_6\iphone_6_port_black.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone_6\iphone_6_port_gold.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone_6\iphone_6_port_white.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone_6_plus\iphone_6_plus_black_land.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone_6_plus\iphone_6_plus_black_port.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone_6_plus\iphone_6_plus_gold_land.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone_6_plus\iphone_6_plus_gold_port.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone_6_plus\iphone_6_plus_white_land.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone_6_plus\iphone_6_plus_white_port.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone_se\iphone_se_land_black.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone_se\iphone_se_land_gold.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone_se\iphone_se_land_rose.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone_se\iphone_se_land_white.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone_se\iphone_se_port_black.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone_se\iphone_se_port_gold.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone_se\iphone_se_port_rose.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\iphone_se\iphone_se_port_white.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\lumia920\lumia920_land.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\lumia920\lumia920_port.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\lumia_930\lumia_930_dark_land.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\lumia_930\lumia_930_dark_port.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\lumia_930\lumia_930_light_land.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\lumia_930\lumia_930_light_port.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\macbook\macbook.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\macbook_2015\gold.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\macbook_2015\grey.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\macbook_2015\silver.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\nexus7\nexus7_land.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\nexus7\nexus7_port.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\nexus_6\nexus_6_land.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\nexus_6\nexus_6_port.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\samsung_tv\samsung_tv.png" />
+    <Content Include="Content\NhanLenhApp\device-mockups\surface\surface.png" />
+    <Content Include="Content\NhanLenhApp\img\app-store-badge.svg" />
+    <Content Include="Content\NhanLenhApp\img\bg-cta.jpg" />
+    <Content Include="Content\NhanLenhApp\img\bg-pattern.png" />
+    <Content Include="Content\NhanLenhApp\img\demo-screen-1.jpg" />
+    <Content Include="Content\NhanLenhApp\img\google-play-badge.svg" />
+    <Content Include="Content\NhanLenhApp\img\logo.png" />
+    <None Include="Views\NhanLenhApp\Index.cshtml" />
+    <Content Include="Content\NhanLenhApp\js\new-age.js" />
+    <Content Include="Content\NhanLenhApp\js\new-age.min.js" />
+    <Content Include="Content\NhanLenhApp\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="Content\NhanLenhApp\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="Content\NhanLenhApp\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="Content\NhanLenhApp\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="Content\NhanLenhApp\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="Content\NhanLenhApp\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Content\NhanLenhApp\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="Content\NhanLenhApp\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="Content\NhanLenhApp\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="Content\NhanLenhApp\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\css\font-awesome.css" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\NhanLenhApp\vendor\jquery-easing\jquery.easing.compatibility.js" />
+    <Content Include="Content\NhanLenhApp\vendor\jquery-easing\jquery.easing.js" />
+    <Content Include="Content\NhanLenhApp\vendor\jquery-easing\jquery.easing.min.js" />
+    <Content Include="Content\NhanLenhApp\vendor\jquery\jquery.js" />
+    <Content Include="Content\NhanLenhApp\vendor\jquery\jquery.min.js" />
+    <Content Include="Content\NhanLenhApp\vendor\jquery\jquery.slim.js" />
+    <Content Include="Content\NhanLenhApp\vendor\jquery\jquery.slim.min.js" />
+    <Content Include="Content\NhanLenhApp\vendor\simple-line-icons\css\simple-line-icons.css" />
+    <Content Include="Content\NhanLenhApp\vendor\simple-line-icons\fonts\Simple-Line-Icons.svg" />
+    <None Include="Views\FreshCafeViet\About.cshtml" />
+    <None Include="Views\FreshCafeViet\Index.cshtml" />
+    <None Include="Views\FreshCafeViet\Products.cshtml" />
+    <None Include="Views\FreshCafeViet\Store.cshtml" />
+    <None Include="Views\DuyNamTin\Index.cshtml" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\AutofacWebapiConfig.cs" />
+    <Compile Include="App_Start\Bootstrapper.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\CustomersController.cs" />
+    <Compile Include="Controllers\DuyNamTinController.cs" />
+    <Compile Include="Controllers\EmailController.cs" />
+    <Compile Include="Controllers\FreshCafeVietController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\GenresController.cs" />
+    <Compile Include="Controllers\MoviesController.cs" />
+    <Compile Include="Controllers\MoviesExtendedController.cs" />
+    <Compile Include="Controllers\NhanLenhAppController.cs" />
+    <Compile Include="Controllers\ProfileUserController.cs" />
+    <Compile Include="Controllers\RentalsExtendedController.cs" />
+    <Compile Include="Controllers\RentalsController.cs" />
+    <Compile Include="Controllers\StocksController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Infrastructure\Core\ApiControllerBaseExtended.cs" />
+    <Compile Include="Infrastructure\Core\ApiControllerBase.cs" />
+    <Compile Include="Infrastructure\Core\DataRepositoryFactory.cs" />
+    <Compile Include="Infrastructure\Core\FileUploadResult.cs" />
+    <Compile Include="Infrastructure\Core\MimeMultipart.cs" />
+    <Compile Include="Infrastructure\Core\PaginationSet.cs" />
+    <Compile Include="Infrastructure\Core\UploadMultipartFormProvider.cs" />
+    <Compile Include="Infrastructure\Extensions\EntitiesExtensions.cs" />
+    <Compile Include="Infrastructure\Extensions\RequestMessageExtensions.cs" />
+    <Compile Include="Infrastructure\MessageHandlers\HomeCinemaAuthHandler.cs" />
+    <Compile Include="Infrastructure\Validators\CustomerViewModelValidator.cs" />
+    <Compile Include="Infrastructure\Validators\AccountViewModelValidators.cs" />
+    <Compile Include="Infrastructure\Validators\StockViewModelValidator.cs" />
+    <Compile Include="Infrastructure\Validators\MovieViewModelValidator.cs" />
+    <Compile Include="Mappings\AutoMapperConfiguration.cs" />
+    <Compile Include="Mappings\ViewModelToDomainMappingProfile.cs" />
+    <Compile Include="Mappings\DomainToViewModelMappingProfile.cs" />
+    <Compile Include="Models\CityViewModel.cs" />
+    <Compile Include="Models\CountryViewModel.cs" />
+    <Compile Include="Models\EmailViewModel.cs" />
+    <Compile Include="Models\GenreViewModel.cs" />
+    <Compile Include="Models\LoginViewModel.cs" />
+    <Compile Include="Models\CustomerViewModel.cs" />
+    <Compile Include="Models\ProfileUserViewModel.cs" />
+    <Compile Include="Models\RegistrationViewModel.cs" />
+    <Compile Include="Models\RentalViewModel.cs" />
+    <Compile Include="Models\RentalHistoryViewModel.cs" />
+    <Compile Include="Models\StockViewModel.cs" />
+    <Compile Include="Models\MovieViewModel.cs" />
+    <Compile Include="Models\TotalRentalHistoryViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="packages.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\fonts\FontAwesome.otf" />
+    <Content Include="Scripts\spa\directives\availableMovie.directive.js" />
+    <Content Include="Scripts\spa\modules\common.core.js" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="App_Data\Building Single Page Applications using Web API and angularJS.pdf" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\_Layout.cshtml" />
+    <Content Include="App_Data\Document.docx" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <Content Include="Content\NhanLenhApp\scss\new-age.scss" />
+    <Content Include="Content\NhanLenhApp\scss\_bootstrap-overrides.scss" />
+    <Content Include="Content\NhanLenhApp\scss\_contact.scss" />
+    <Content Include="Content\NhanLenhApp\scss\_cta.scss" />
+    <Content Include="Content\NhanLenhApp\scss\_download.scss" />
+    <Content Include="Content\NhanLenhApp\scss\_features.scss" />
+    <Content Include="Content\NhanLenhApp\scss\_footer.scss" />
+    <Content Include="Content\NhanLenhApp\scss\_global.scss" />
+    <Content Include="Content\NhanLenhApp\scss\_masthead.scss" />
+    <Content Include="Content\NhanLenhApp\scss\_mixins.scss" />
+    <Content Include="Content\NhanLenhApp\scss\_navbar.scss" />
+    <Content Include="Content\NhanLenhApp\scss\_variables.scss" />
+    <Content Include="Content\NhanLenhApp\vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Content\NhanLenhApp\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="Content\NhanLenhApp\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="Content\NhanLenhApp\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Content\NhanLenhApp\vendor\bootstrap\js\bootstrap.js.map" />
+    <Content Include="Content\NhanLenhApp\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\css\font-awesome.css.map" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\less\animated.less" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\less\bordered-pulled.less" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\less\core.less" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\less\fixed-width.less" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\less\font-awesome.less" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\less\icons.less" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\less\larger.less" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\less\list.less" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\less\mixins.less" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\less\path.less" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\less\rotated-flipped.less" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\less\screen-reader.less" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\less\stacked.less" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\less\variables.less" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\scss\font-awesome.scss" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\scss\_animated.scss" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\scss\_core.scss" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\scss\_icons.scss" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\scss\_larger.scss" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\scss\_list.scss" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\scss\_mixins.scss" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\scss\_path.scss" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\scss\_screen-reader.scss" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\scss\_stacked.scss" />
+    <Content Include="Content\NhanLenhApp\vendor\font-awesome\scss\_variables.scss" />
+    <Content Include="Content\NhanLenhApp\vendor\jquery\jquery.min.map" />
+    <Content Include="Content\NhanLenhApp\vendor\jquery\jquery.slim.min.map" />
+    <Content Include="Content\NhanLenhApp\vendor\simple-line-icons\fonts\Simple-Line-Icons.eot" />
+    <Content Include="Content\NhanLenhApp\vendor\simple-line-icons\fonts\Simple-Line-Icons.ttf" />
+    <Content Include="Content\NhanLenhApp\vendor\simple-line-icons\fonts\Simple-Line-Icons.woff" />
+    <Content Include="Content\NhanLenhApp\vendor\simple-line-icons\fonts\Simple-Line-Icons.woff2" />
+    <Content Include="Content\NhanLenhApp\vendor\simple-line-icons\less\simple-line-icons.less" />
+    <Content Include="Content\NhanLenhApp\vendor\simple-line-icons\scss\simple-line-icons.scss" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HomeCinema.Data\HomeCinema.Data.csproj">
+      <Project>{fdb8609c-3fa4-425c-ba71-4a71a7c43ec6}</Project>
+      <Name>HomeCinema.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HomeCinema.Entities\HomeCinema.Entities.csproj">
+      <Project>{3e8bb046-05bd-4d27-94a7-c13ad4f3e192}</Project>
+      <Name>HomeCinema.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HomeCinema.Services\HomeCinema.Services.csproj">
+      <Project>{2b0131ab-cd43-47fe-8d0e-2c80ee069762}</Project>
+      <Name>HomeCinema.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Email\" />
+    <Folder Include="Views\Shared\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1487</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1487/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets')" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
