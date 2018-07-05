@@ -19,3 +19,9 @@ C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema
 C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Entities\obj\Debug\HomeCinema.Entities.csproj.CoreCompileInputs.cache
 C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Entities\obj\Debug\HomeCinema.Entities.dll
 C:\WORKING\Working20_5_2018\spa-webapi-angularjs-master\MVC5Angularjs\HomeCinema.Entities\obj\Debug\HomeCinema.Entities.pdb
+C:\Users\HoangVu\Source\Repos\MVC5Angularjs\HomeCinema.Entities\bin\Debug\HomeCinema.Entities.dll
+C:\Users\HoangVu\Source\Repos\MVC5Angularjs\HomeCinema.Entities\bin\Debug\HomeCinema.Entities.pdb
+C:\Users\HoangVu\Source\Repos\MVC5Angularjs\HomeCinema.Entities\obj\Debug\HomeCinema.Entities.csprojAssemblyReference.cache
+C:\Users\HoangVu\Source\Repos\MVC5Angularjs\HomeCinema.Entities\obj\Debug\HomeCinema.Entities.csproj.CoreCompileInputs.cache
+C:\Users\HoangVu\Source\Repos\MVC5Angularjs\HomeCinema.Entities\obj\Debug\HomeCinema.Entities.dll
+C:\Users\HoangVu\Source\Repos\MVC5Angularjs\HomeCinema.Entities\obj\Debug\HomeCinema.Entities.pdb

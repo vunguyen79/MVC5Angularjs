@@ -153,6 +153,5 @@ C:\Users\HoangVu\Source\Repos\MVC5Angularjs\HomeCinema.Data\bin\Debug\pt\FluentV
 C:\Users\HoangVu\Source\Repos\MVC5Angularjs\HomeCinema.Data\bin\Debug\ru\FluentValidation.resources.dll
 C:\Users\HoangVu\Source\Repos\MVC5Angularjs\HomeCinema.Data\bin\Debug\sv\FluentValidation.resources.dll
 C:\Users\HoangVu\Source\Repos\MVC5Angularjs\HomeCinema.Data\bin\Debug\tr\FluentValidation.resources.dll
-C:\Users\HoangVu\Source\Repos\MVC5Angularjs\HomeCinema.Data\obj\Debug\HomeCinema.Data.csprojAssemblyReference.cache
 C:\Users\HoangVu\Source\Repos\MVC5Angularjs\HomeCinema.Data\obj\Debug\HomeCinema.Data.csproj.CoreCompileInputs.cache
 C:\Users\HoangVu\Source\Repos\MVC5Angularjs\HomeCinema.Data\obj\Debug\HomeCinema.Data.csproj.CopyComplete
